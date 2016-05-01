@@ -1,3 +1,9 @@
+nginx-adlantic (1.8.1-1) stable; urgency=low
+
+  * Upgrade to the DotDeb version 1.8.1
+
+ -- Timur I. Bakeyev <timur@gnu.org>  Thu, 03 Mar 2016 22:00:03 +0200
+
 nginx (1.8.1-1~dotdeb+8.1) stable; urgency=medium
 
   * Imported Upstream version 1.8.1

@@ -1,3 +1,9 @@
+nginx-adlantic (1.8.1-2) stable; urgency=low
+
+  * Remove pagespeed module
+
+ -- Timur I. Bakeyev <timur@gnu.org>  Fri, 20 May 2016 00:35:03 +0200
+
 nginx-adlantic (1.8.1-1) stable; urgency=low
 
   * Upgrade to the DotDeb version 1.8.1

@@ -38,8 +38,8 @@ Description: small, powerful, scalable web/proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
  and as a proxy to reduce the load on back-end HTTP or mail servers.
  .
- This is a dependency package to install either nginx-full (by default) or
- nginx-light.
+ This is a dependency package to install either nginx-adlantic-full (by default)
+ or nginx-adlantic-light.
 
 Package: nginx-adlantic-doc
 Architecture: all
@@ -79,14 +79,14 @@ Description: small, powerful, scalable web/proxy server - common files
 Package: nginx-adlantic-core
 Architecture: any
 Priority: extra
-Depends: nginx-core-common (= ${source:Version}),
+Depends: nginx-adlantic-common (= ${source:Version}),
          ${misc:Depends},
          ${perl:Depends},
          ${shlibs:Depends}
 Breaks: nginx (<< 1.4.5-1)
 Provides: httpd, httpd-cgi, nginx
 Conflicts: nginx-full, nginx-extras, nginx-light, nginx-naxsi
-Suggests: nginx-doc (= ${source:Version})
+Suggests: nginx-adlantic-doc (= ${source:Version})
 Description: nginx web/proxy server (extended version)
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -119,7 +119,7 @@ Description: nginx web/proxy server (extended version) - debugging symbols
  created by Igor Sysoev. It can be used both as a standalone web server
  and as a proxy to reduce the load on back-end HTTP or mail servers.
  .
- This package provides debugging symbols for nginx-extras, to assist in
- debugging issues that you may find. It should not be required for normal
+ This package provides debugging symbols for nginx-adlantic-core, to assist
+ in debugging issues that you may find. It should not be required for normal
  operation.
 

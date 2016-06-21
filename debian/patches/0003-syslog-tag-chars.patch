@@ -1,0 +1,11 @@
+--- dotdeb-nginx.orig/src/core/ngx_syslog.c	2016-06-12 00:03:44.827012837 +0200
++++ dotdeb-nginx/src/core/ngx_syslog.c	2016-06-12 00:45:10.463058328 +0200
+@@ -182,7 +182,7 @@
+             for (i = 4; i < len; i++) {
+                 c = ngx_tolower(p[i]);
+ 
+-                if (c < '0' || (c > '9' && c < 'a' && c != '_') || c > 'z') {
++                if (c != '/' && c < '0' || (c > '9' && c < 'a' && c != '_') || c > 'z') {
+                     ngx_conf_log_error(NGX_LOG_EMERG, cf, 0,
+                                        "syslog \"tag\" only allows "
+                                        "alphanumeric characters "

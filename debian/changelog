@@ -1,3 +1,9 @@
+nginx-adlantic (1.10.1-4) stable; urgency=low
+
+   * Adjust logrotate config
+
+ -- Timur I. Bakeyev <timur@gnu.org>  Tue, 21 Jun 2016 22:38:05 +0200
+
 nginx-adlantic (1.10.1-3) stable; urgency=low
 
    * Recompile with libssl1.0.2

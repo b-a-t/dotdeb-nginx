@@ -177,7 +177,6 @@ adlantic-core_configure_flags := \
 			--add-module=$(MODULESDIR)/nginx-upload-progress \
 			--add-module=$(MODULESDIR)/nginx-upstream-fair \
 			--add-module=$(MODULESDIR)/ngx_http_substitutions_filter_module \
-			--add-module=$(MODULESDIR)/ngx_http_pinba_module \
 			--add-module=$(MODULESDIR)/nginx-x-rid-header \
 			--add-module=$(MODULESDIR)/nginx-rtmp-module \
 			--add-module=$(MODULESDIR)/nginx-socketlog-module \

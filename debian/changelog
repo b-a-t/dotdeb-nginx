@@ -1,3 +1,9 @@
+nginx-adlantic (1.10.2-1) stable; urgency=low
+
+  * Upgrade to the DotDeb version 1.10.2
+
+ -- Timur I. Bakeyev <timur@gnu.org>  Thu, 17 Nov 2016 03:24:02 +0100
+
 nginx (1.10.2-2~dotdeb+8.2) stable; urgency=medium
 
   * Fix a Security Regression
